@@ -6,7 +6,6 @@ The application under test is QKart, an e-commerce platform.
 [image](https://directus.crio.do/assets/e8f0f67a-82db-4fba-bf63-aea7763e233f?)
 
 ## QKart Shopping Interface (Products page)
-
 ### During the course of this project,
   1.Debugged failing test cases and issues with log statements
   2.Automated testing with selenium
@@ -23,7 +22,6 @@ QKart Shopping Interface (Products page)
 QKart Shopping Interface (Products page)
 
 ## Modularise test code and debug issues
-
 ### Scope of Work
   1.Modularised existing test code for readability and to avoid code duplication
   2.Fixed various bugs present in the existing code base for Register and Login pages
