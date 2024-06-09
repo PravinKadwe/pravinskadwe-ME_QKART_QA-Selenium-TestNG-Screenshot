@@ -8,12 +8,12 @@ The application under test is QKart, an e-commerce platform.
 ## QKart Shopping Interface (Products page)
 
 ### During the course of this project,
-  *Debugged failing test cases and issues with log statements
-  *Automated testing with selenium
-  *Utilised implicit and explicit waits correctly to avoid synchronisation issues
-  *Improved the tests with XPath
-  *Migrated tests to the TestNG test automation framework
-  *Performed Data-driven test automation with Apache POI
+  1.Debugged failing test cases and issues with log statements
+  2.Automated testing with selenium
+  3.Utilised implicit and explicit waits correctly to avoid synchronisation issues
+  4.Improved the tests with XPath
+  5.Migrated tests to the TestNG test automation framework
+  6.Performed Data-driven test automation with Apache POI
 
 [image](https://directus.crio.do/assets/e8f0f67a-82db-4fba-bf63-aea7763e233f?)
 
@@ -25,9 +25,9 @@ QKart Shopping Interface (Products page)
 ## Modularise test code and debug issues
 
 ### Scope of Work
-  *Modularised existing test code for readability and to avoid code duplication
-  *Fixed various bugs present in the existing code base for Register and Login pages
-  *Used IDE debugger with breakpoints to find and resolve issues faster
+  1.Modularised existing test code for readability and to avoid code duplication
+  2.Fixed various bugs present in the existing code base for Register and Login pages
+  3.Used IDE debugger with breakpoints to find and resolve issues faster
 
 ### Skills used
 Java, Selenium, Locators, HTML, Developer Tools
