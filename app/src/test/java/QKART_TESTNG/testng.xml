@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tests for QKART" parallel="false">
+    <listeners>
+        <listener class-name="QKART_TESTNG.ListenerClass"/>
+    </listeners>
+    <test name="Test Execution using testNG - Sanity">
+        <parameter name="TC1_username" value="testUser" />
+        <parameter name="TC1_password" value="abc@123" />
+        <parameter name="TC2_username" value="testUser" />
+        <parameter name="TC2_password" value="abc@123" />
+        <parameter name="TC3_productName" value="YONEX" />
+        <parameter name="TC5_product1" value="YONEX Smash Badminton Racquet" />
+        <parameter name="TC5_product2" value="Tan Leatherette Weekender Duffle" />
+        <parameter name="TC5_addressLine" value="Addr line 1 addr Line 2 addr Line 3" />
+        <parameter name="TC7_product" value="Tan Leatherette Weekender Duffle" />
+        <parameter name="TC7_quantity" value="60" />
+        <parameter name="TC11_product" value="YONEX Smash Badminton Racquet" />
+        <parameter name="TC11_addressLine" value="Addr line 1 addr Line 2 addr Line 3" />
+        <groups>
+
+            <run>
+
+              <include name = "Sanity_test"></include>
+
+            </run>
+
+        </groups>
+        <classes>
+            <class name="QKART_TESTNG.QKART_Tests" />
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="QKART_TESTNG.ListenerClass"/>
+    </listeners>
+    <test name="Test Execution using testNG - Regression">
+        <parameter name="TC4_productName" value="Running Shoes" />
+        <parameter name="TC6_product1" value="Xtend Smart Watch" />
+        <parameter name="TC6_product2" value="Yarine Floor Lamp" />
+        <parameter name="TC10_name" value="crio user" />
+        <parameter name="TC10_email" value="criouser@gmail.com" />
+        <parameter name="TC10_message" value="Testing the contact us page" />
+        <groups>
+
+            <run>
+
+              <include name = "Regression_Test"></include>
+
+            </run>
+
+        </groups>
+        <classes>
+            <class name="QKART_TESTNG.QKART_Tests" />
+        </classes>
+    </test>
+</suite>

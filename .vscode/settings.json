@@ -1,0 +1,4 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.checkstyle.configuration": "${workspaceFolder}/app/src/test/java/QKART_TESTNG/testng.xml"
+}

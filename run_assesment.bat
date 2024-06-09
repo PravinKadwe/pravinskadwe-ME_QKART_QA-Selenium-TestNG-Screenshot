@@ -1,0 +1,1 @@
+python assesment/localAssesment.py ./app/chromedriver.log assesment/AIS_MO_01.json
